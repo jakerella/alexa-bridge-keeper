@@ -42,7 +42,7 @@ function stopTravelerAndAskName() {
         response: {
             outputSpeech: {
                 type: 'SSML',
-                text: '<speak>Who would cross the Bridge of Death must answer me these questions three, ere the other side he see. What <break time="3s"/> is your name?</speak>'
+                text: '<speak>Stop! Who would cross the Bridge of Death must answer me these questions three, ere the other side he see. What <break time="3s"/> is your name?</speak>'
             },
             shouldEndSession: false
         }
@@ -100,7 +100,7 @@ function respondToAnswer(questionId, answer) {
             response: {
                 outputSpeech: {
                     type: 'SSML',
-                    text: '<speak>Oh. <break time="1s"/> All right then, <break time="1s"/> off you go.</speak>'
+                    text: '<speak>Right. <break time="1s"/> Off you go.</speak>'
                 },
                 shouldEndSession: true
             }

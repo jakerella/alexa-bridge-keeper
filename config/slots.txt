@@ -7,11 +7,27 @@ sir lancelot of camelot
 lancelot of camelot
 lancelot the chaste
 sir lancelot the chaste
+my name is lancelot
+my name is sir lancelot
+my name is sir lancelot of camelot
+my name is lancelot of camelot
+I am lancelot
+I am sir lancelot
+I am sir lancelot of camelot
+I am lancelot of camelot
 
 gallahad
 sir gallahad
 gallahad of camelot
 sir gallahad of camelot
+my name is gallahad
+my name is sir gallahad
+my name is sir gallahad of camelot
+my name is gallahad of camelot
+I am gallahad
+I am sir gallahad
+I am sir gallahad of camelot
+I am gallahad of camelot
 
 robin
 sir robin
@@ -21,6 +37,15 @@ robin of camelot
 sir robin the brave
 sir robin of camelot
 brave sir robin of camelot
+my name is robin
+my name is sir robin
+my name is sir robin of camelot
+my name is robin of camelot
+my name is brave sir robin
+I am robin
+I am sir robin
+I am sir robin of camelot
+I am robin of camelot
 
 arthur
 king arthur
@@ -28,6 +53,19 @@ arthur pendragon
 arthur of camelot
 king arthur of camelot
 arthur, king of the britons
+my name is arthur
+my name is king arthur
+my name is king arthur of camelot
+my name is arthur of camelot
+I am arthur
+I am arthur pendragon
+I am king arthur
+I am king arthur pendragon
+I am arthur king of the britons
+I am arthur pendragon king of the britons
+I am king arthur of the britons
+I am arthur or camelot
+I am king arthur of camelot
 
 the grail
 the holy grail
