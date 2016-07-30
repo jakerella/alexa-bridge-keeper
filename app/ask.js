@@ -119,9 +119,11 @@ function determineCorrectness(questionId, answer) {
     } else {
         let question = questions[Number(questionId)];
         if (!question) {
+            console.log('Could not find question.');
             return false;
         } else {
             let re = new RegExp(question.answer);
+            console.log('Random question regex:', re);
             return re.test(answer.toLowerCase());
         }
     }
