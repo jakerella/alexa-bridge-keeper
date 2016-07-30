@@ -16,7 +16,7 @@ app.use(bodyParser.json({
 }));
 
 
-app.use('/', function(req, res) {
+app.get('/', function(req, res) {
     res.json({ message: 'There it is! The Bridge of Death!', timestamp: (new Date()).toString() });
 });
 app.use('/ask', ask(app));
