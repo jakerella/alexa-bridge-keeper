@@ -111,11 +111,11 @@ function respondToAnswer(questionId, answer) {
 
 function determineCorrectness(questionId, answer) {
     console.log('Did they answer correctly?', questionId, answer);
-    
+
     if (questionId === 'name') {
-        return /\b(lancelot)|(robin)|(gallahad)|(arthur)\b/.test(answer);
+        return /\b(lancelot)|(robin)|(gallahad)|(arthur)\b/.test(answer.toLowerCase());
     } else if (questionId === 'quest') {
-        return /\bgrail\b/.test(answer);
+        return /\bgrail\b/.test(answer.toLowerCase());
     } else {
         let question = questions[Number(questionId)];
         if (!question) {
