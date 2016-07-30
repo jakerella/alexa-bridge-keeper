@@ -28,6 +28,13 @@ module.exports = function(expressApp) {
                 req.body.request.intent.slots.Answer.value
             ));
 
+        } else if (req.body.request.type === 'SessionEndedRequest') {
+
+            if (req.body.request.reason === 'ERROR') {
+                console.error('Alexa ended the session due to an error');
+            }
+            res.json({ message: 'Session Ended' });
+
         } else {
             console.error('Intent not implemented: ', req.body);
             res.status(504).json({ message: 'Intent Not Implemented' });
