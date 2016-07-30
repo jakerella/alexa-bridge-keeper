@@ -1,0 +1,18 @@
+{
+  "name": "alexa-bridge-keeper",
+  "version": "1.0.0",
+  "description": "Who would cross the Bridge of Death must answer me these questions three, ere the other side he see.",
+  "main": "app/keeper.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakerella/alexa-bridge-keeper.git"
+  },
+  "author": "Jordan Kasper",
+  "license": "MIT",
+  "homepage": "https://github.com/jakerella/alexa-bridge-keeper",
+  "dependencies": {
+    "alexa-verifier": "0.0.5",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}

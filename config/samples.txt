@@ -1,0 +1,23 @@
+
+Cross   to allow me to pass
+Cross   to let me pass
+Cross   to let me cross
+Cross   to let me cross the bridge
+Cross   to allow me to pass
+Cross   to allow me to cross
+Cross   to allow me to cross the bridge
+Cross   to ask me the questions
+Cross   to ask me his questions
+Cross   I want to cross
+Cross   I want to cross the bridge
+Cross   I want to cross his bridge
+Cross   if I can cross
+Cross   if I can cross the bridge
+Cross   if I can cross his bridge
+Cross   to move
+Cross   how I can cross
+Cross   how I can cross the bridge
+Cross   how I can cross his bridge
+Cross   how I can pass
+
+Answer  {Answer}

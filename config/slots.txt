@@ -1,0 +1,67 @@
+
+BRIDGE_QUESTION
+
+lancelot
+sir lancelot
+sir lancelot of camelot
+lancelot of camelot
+lancelot the chaste
+sir lancelot the chaste
+
+gallahad
+sir gallahad
+gallahad of camelot
+sir gallahad of camelot
+
+robin
+sir robin
+robin the brave
+brave sir robin
+robin of camelot
+sir robin the brave
+sir robin of camelot
+brave sir robin of camelot
+
+arthur
+king arthur
+arthur pendragon
+arthur of camelot
+king arthur of camelot
+arthur, king of the britons
+
+the grail
+the holy grail
+to seek the grail
+to seek the holy grail
+I seek the grail
+I seek the holy grail
+to find the grail
+to find the holy grail
+
+pink
+red
+orange
+yellow
+green
+blue
+violet
+purple
+
+don't know
+I don't know
+I don't know that
+dunno
+I dunno
+I dunno that
+how would I know
+how would I know that
+I have no idea
+no clue
+
+what do you mean
+an african or european swallow
+a european or african swallow
+what do you mean, an african or european swallow
+what do you mean, a european or african swallow
+what type of swallow
+what kind of swallow

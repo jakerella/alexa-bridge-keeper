@@ -1,0 +1,23 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "Cross",
+      "slots": []
+    }
+    {
+      "intent": "Answer",
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "BRIDGE_QUESTION"
+        }
+      ]
+    }
+  ]
+}
