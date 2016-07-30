@@ -111,16 +111,16 @@ function respondToAnswer(questionId, answer) {
 
 function determineCorrectness(questionId, answer) {
     if (questionId === 'name') {
-        return answer.test(/\b(lancelot)|(robin)|(gallahad)|(arthur)\b/);
+        return /\b(lancelot)|(robin)|(gallahad)|(arthur)\b/.test(answer);
     } else if (questionId === 'quest') {
-        return answer.test(/\bgrail\b/);
+        return /\bgrail\b/.test(answer);
     } else {
         let question = questions[Number(questionId)];
         if (!question) {
             return false;
         } else {
             let re = new RegExp(question.answer);
-            return answer.toLowerCase().test(re);
+            return re.test(answer.toLowerCase());
         }
     }
 }
