@@ -1,3 +1,4 @@
+'use strict';
 
 let verifier = require('alexa-verifier');
 
