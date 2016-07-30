@@ -43,7 +43,7 @@ function stopTravelerAndAskName() {
         response: {
             outputSpeech: {
                 type: 'SSML',
-                ssml: '<speak>Stop! Who would cross the Bridge of Death must answer me these questions three, ere the other side he see. What <break time="3s"/> is your name?</speak>'
+                ssml: '<speak>Stop! Who would cross the Bridge of Death must answer me these questions three, ere the other side he see. What <break time="1s"/> is your name?</speak>'
             },
             shouldEndSession: false
         }
