@@ -13,21 +13,24 @@ module.exports = function(expressApp) {
 
         if (req.body.request.type === 'LaunchRequest') {
 
-            return res.json(stopTravelerAndAskName());
+            res.json(stopTravelerAndAskName());
 
         } else if (req.body.request.type === 'IntentRequest' &&
                    req.body.request.intent.name === 'Cross') {
 
-            return res.json(stopTravelerAndAskName());
+            res.json(stopTravelerAndAskName());
 
         } else if (req.body.request.type === 'IntentRequest' &&
                    req.body.request.intent.name === 'GiveAnswer') {
 
-            return res.json(respondToAnswer(
+            res.json(respondToAnswer(
                 req.body.session.attributes.question,
                 req.body.request.intent.slots.Answer.value
             ));
 
+        } else {
+            console.error('Intent not implemented: ', req.body);
+            res.status(504).json({ message: 'Intent Not Implemented' });
         }
     });
 
