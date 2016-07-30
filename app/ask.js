@@ -110,6 +110,8 @@ function respondToAnswer(questionId, answer) {
 }
 
 function determineCorrectness(questionId, answer) {
+    console.log('Did they answer correctly?', questionId, answer);
+    
     if (questionId === 'name') {
         return /\b(lancelot)|(robin)|(gallahad)|(arthur)\b/.test(answer);
     } else if (questionId === 'quest') {
