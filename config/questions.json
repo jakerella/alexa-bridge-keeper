@@ -1,6 +1,6 @@
 [
     {
-        "question": "What <break time=\"1s\"/> is yoru favorite color?",
+        "question": "What <break time=\"1s\"/> is your favorite color?",
         "answer": "\\bblue\\b"
     },
     {

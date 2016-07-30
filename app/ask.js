@@ -66,6 +66,7 @@ function respondToAnswer(questionId, answer) {
         };
 
     } else if (questionId === 'name') {
+
         return {
             version: app.get('version'),
             sessionAttributes: {
@@ -79,8 +80,11 @@ function respondToAnswer(questionId, answer) {
                 shouldEndSession: false
             }
         };
+
     } else if (questionId === 'quest') {
-        let nextQuestion = Math.floor(Math.random() * questions.length);
+
+        let nextQuestion = Math.floor(Number('0.' + require('crypto').randomBytes(10).toString('hex').replace(/[^0-9]/g, '')) * questions.length);
+
         return {
             version: app.get('version'),
             sessionAttributes: {
@@ -94,7 +98,9 @@ function respondToAnswer(questionId, answer) {
                 shouldEndSession: false
             }
         };
+
     } else {
+
         return {
             version: app.get('version'),
             sessionAttributes: {},
@@ -106,6 +112,7 @@ function respondToAnswer(questionId, answer) {
                 shouldEndSession: true
             }
         };
+
     }
 }
 
