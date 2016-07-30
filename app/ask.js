@@ -2,12 +2,13 @@
 
 let router = require('express').Router(),
     questions = require('../config/questions.json'),
+    verify = require('./verify'),
     app;
 
 module.exports = function(expressApp) {
     app = expressApp;
 
-    router.post('/', function(req, res, next) {
+    router.post('/', verify, function(req, res, next) {
         console.log('New request for the bridge keeper from ', req.body.session.user.userId);
 
         if (req.body.request.type === 'LaunchRequest') {

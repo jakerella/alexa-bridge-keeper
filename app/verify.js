@@ -1,8 +1,7 @@
 
-let router = require('express').Router(),
-    verifier = require('alexa-verifier');
+let verifier = require('alexa-verifier');
 
-router.use(function(req, res, next) {
+module.exports = function(req, res, next) {
     if (!req.headers.signaturecertchainurl) {
         return next();
     }
@@ -14,6 +13,4 @@ router.use(function(req, res, next) {
             next();
         }
     });
-});
-
-module.exports = router;
+};
