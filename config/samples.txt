@@ -20,4 +20,4 @@ Cross   how I can cross the bridge
 Cross   how I can cross his bridge
 Cross   how I can pass
 
-Answer  {Answer}
+GiveAnswer  {Answer}

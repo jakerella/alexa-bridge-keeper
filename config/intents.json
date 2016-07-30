@@ -9,9 +9,9 @@
     {
       "intent": "Cross",
       "slots": []
-    }
+    },
     {
-      "intent": "Answer",
+      "intent": "GiveAnswer",
       "slots": [
         {
           "name": "Answer",

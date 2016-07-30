@@ -21,7 +21,7 @@ module.exports = function(expressApp) {
             return res.json(stopTravelerAndAskName());
 
         } else if (req.body.request.type === 'IntentRequest' &&
-                   req.body.request.intent.name === 'Answer') {
+                   req.body.request.intent.name === 'GiveAnswer') {
 
             return res.json(respondToAnswer(
                 req.body.session.attributes.question,
