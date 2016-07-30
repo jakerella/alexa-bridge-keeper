@@ -33,7 +33,7 @@ module.exports = function(expressApp) {
             if (req.body.request.reason === 'ERROR') {
                 console.error('Alexa ended the session due to an error');
             }
-            res.status(204).end('');
+            // Per Alexa docs, we shouldn't send ANY response here... weird.
 
         } else {
             console.error('Intent not implemented: ', req.body);
