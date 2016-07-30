@@ -1,14 +1,14 @@
 [
     {
-        "question": "What <break time=\"3s\"/> is yoru favorite color?",
-        "answer": "\bblue\b"
+        "question": "What <break time=\"1s\"/> is yoru favorite color?",
+        "answer": "\\bblue\\b"
     },
     {
-        "question": "What <break time=\"3s\"/> is the capital of Asyria?",
-        "answer": "\b(ekallatum)|(Assur)|(Nineveh)\b"
+        "question": "What <break time=\"1s\"/> is the capital of Asyria?",
+        "answer": "\\b(ekallatum)|(Assur)|(Nineveh)\\b"
     },
     {
-        "question": "What <break time=\"3s\"/> is the airspeed of an unlaiden swallow?",
-        "answer": "\b(african or european)|(european or african) swallow\b"
+        "question": "What <break time=\"1s\"/> is the airspeed velocity of an unlaiden swallow?",
+        "answer": "\\b(african or european)|(european or african) swallow\\b"
     }
 ]
