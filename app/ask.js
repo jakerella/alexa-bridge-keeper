@@ -9,7 +9,7 @@ module.exports = function(expressApp) {
     app = expressApp;
 
     router.post('/', verify, function(req, res, next) {
-        console.log('New request for the bridge keeper from ', req.body.session.user.userId);
+        console.log('New request for the bridge keeper:\n', req.body);
 
         if (req.body.request.type === 'LaunchRequest') {
 
