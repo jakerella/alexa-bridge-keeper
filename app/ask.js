@@ -85,7 +85,7 @@ function respondToAnswer(questionId, answer) {
             response: {
                 outputSpeech: {
                     type: 'SSML',
-                    ssml: 'What <break time="1s"/> is your quest?'
+                    ssml: '<speak>What <break time="1s"/> is your quest?</speak>'
                 },
                 shouldEndSession: false
             }
